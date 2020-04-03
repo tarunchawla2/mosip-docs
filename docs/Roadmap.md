@@ -1,51 +1,54 @@
-## July 2019 to June 2020
+## MOSIP 1.x
+### Version 1.0.x:  Available 
+* MOSIP Platform APIs - ID Lifecycle, Authentication
+* Reference UIs - Registration, Pre-registration
+* Automated testing
+* Design principles - Modularity, Scalability, Privacy and Security
 
-**Seed Contribution**
+### Version 1.x: Q2 2020 
+* Technical debts 
+* Automatic code contribution checks
+* Performance tuning
+* Security enhancements
+* Deployment automation
 
-*   Repo Separation with CI/CD 
-*   Community setup 
-    *    Interface mutation checks 
-    *    Commit auto tests 
-    *    Code promotion 
-    *    Release process 
-*   Native Launcher 
-*   Real Biometric Release
-*   Vanilla Platform 
-    *   Complete the stubbed config 
-    *   Complete modularity 
-*   Data Enrichment Rigidity
-*   Security Testing 
-*   Performance Testing 
-*   Maintainability 
-    *   Database Sharding
-    *   High Availability
-    *   Disaster Recovery
-    *   Data Center Ops
-*   Admin Application
-*   Resident Services API
-*   Partner Management API
-*   ID Auth Backlog
-*   Reg Proc Backlog 
-*   Reg Client Backlog 
-*   Kernel Backlog Pre-Reg (UI cleanup, Captcha) 
-*   Reporting 
+### Version 1.x: Q3 2020 
+* Security enhancements
+* Biometrics Partner Kit
+* Reporting framework: canned reports, real-time dashboard
+* Deployment 2.0 - scalability, monitoring
 
-**Community Contributions**
+### Version 1.x: Q4 2020 
+* LTS version: Documentation, support, feature freeze
+* Biometrics partners - certification guidelines, tools
+* Security: Starter test rig, deployment guidelines
+* More reference apps  
 
-*   Functional Backlog 
-*   Configurable UI 
-*   Integrations
-    *   eIDAS Connector 
-    *   CRVS Integration 
-*   Analytics 
-*   Fraud Management 
-*   eKYC Server 
-*   A/B Testing
-*   Cloud Setup
-*   Device Management Server 
-*   Compliance Certification Tools 
-*   Mobile App 
-    *   Android Reg Client 
-    *   IOS Reg Client 
-    *   Online Registration 
-    *   eKYC reference app 
+## MOSIP 2.0
+### Authentication 2.0
+* Cross country interoperability
+* Support for new credential technologies
+* Federated authentication
+ 
+### Service Delivery
+* Civil Registry integration
+* Reference implementation of integration with a Service Delivery
+* Self service portal
+
+### Privacy
+* Consent Framework
+* Trusted Audit Log
+* Zero Knowledge System
+
+### Mobility
+* Table Registration App
+* Resident Mobile App
+* Offline Auth App
+
+### Rapid Implementation
+* Manageability
+* Automation
+* Bundles and templates
+* Upgrade tools
+* Connectors and adaptors (eIDAS)
+* More choices

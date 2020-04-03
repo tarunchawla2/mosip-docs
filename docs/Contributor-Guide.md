@@ -1,31 +1,56 @@
-# Contributor Guide
+### Where to start ?
+* Read the [MOSIP Blue Book](https://www.mosip.io/uploads/resources/5c9e073f0668fMOSIP%20-%20Blue%20Book.pdf).  Gives you a good overview of foundational ID and MOSIP.
+* Sit back, relax and check this introductory [webinar](https://zoom.us/recording/play/GSWnvtI3wMIKD3Tig3MeuRgCGGUOz0CPTHo9dUVLL8oQIxyzahuytImAtBrntiZ9?continueMode=true) (1 hr).  A focused presentation on MOSIP with some Q&A.
+* Get to know the [Technology Stack](Technology-Stack.md)
+* Get to know the [MOSIP github repo structure](https://github.com/mosip)
+* If you do not have a github account, get one.
+* Deploy and try MOSIP using the [MOSIP deployer for developers](https://github.com/mosip/mosip-infra/tree/master/deployment/sandbox).
+* The [code of conduct](Code-of-Conduct.md) some basic ethics that must while operating within the MOSIP community.  Make sure you read it completely.  If you have any queries/suggestions, direct them to info@mosip.io.
+* If you are a developer willing to contribute to MOSIP, take a look at [MOSIP Java coding standards](MOSIP-Java-Coding-Standards.md).
 
-Welcome to MOSIP, and thank you for thinking of contributing! 
+That's it!  You have bootsrapped yourself into the world of MOSIP.  Welcome!
 
-Before you get started, 
+***
+### Areas of contribution ?
+Well, there are many things that you could get involved with, like 
 
-*   Please make sure to read and observe our [Code of Conduct](code-of-conduct).
-*   Check out [our repositories](https://github.com/mosip) 
-*   Join us on our [Gitter channel](https://gitter.im/mosip-community/community) and [developer mailing list](https://groups.io/g/mosip-dev)
+* Requirements and design
+     * Tell us about new requirements
+     * Review design and architecture
+* Coding   
+	* Fix issues
+	* Review code
+	* Triage bugs
+	* Report bugs
+* Testing 
+	* Run tests on unstable builds
+	* Add tests
+	* Fix test scripts 
+	* Generate test data
+* Documentation
+	* Correct documentation
+	* Test documentation and report doc issues
+	* Fix doc issues
+	* Localize documents (French, Arabic, Spanish are most needed now!) 
 
-## Your First Contribution
+### Can you fix an issue?
+Very good!  Submit a pull request.  See the [code submission guidelines](Github-Workflow.md).
 
-Help is always welcome with MOSIP! Documentation can be simplified, code can be clarified, and test coverage can be improved. 
+### Don't know which bug to fix?
+Don't worry!  Here are some [GOOD FIRST BUGS](https://mosip.atlassian.net/issues/?jql=issuetype%20%3D%20Bug%20AND%20project%20%3D%20MOSIP%20AND%20resolution%20%3D%20Unresolved%20AND%20labels%20%3D%20GOOD-FIRST-BUG%20ORDER%20BY%20priority%20DESC#) that you can try to work on. These are simple ones and wouldn't take long time to fix.  But they are great to start with.
 
-If you want to get started on contributing, there are multiple ways to do so - 
+### Did you find an issue OR do you have an enhancement request?
+Great!  We would love to hear from you.  Submit it in our [issues repository](https://mosip.atlassian.net). Please see the [issue reporting guidelines](Issue-Reporting-Guideline.md).
 
-1.  Contribute to code (fix bugs, implement new features, enhance features)
-1.  Fix any vulnerabilities
-1.  Contribute to improve specifications.
-1.  Suggest new features and feature enhancements.
-1.  Test MOSIP and log bugs.
-1.  Help us fix documentation errors.
-1.  Help spread the word on MOSIP among interested developers.
+### Running and enhancing tests 
+For the quality gurus and the testing geeks!  Join the MOSIP testers group where you get to contribute towards  improving the quality of MOSIP releases making it stable and better adoptable.  Lots of material about [MOSIP functional test rig](https://github.com/mosip/mosip-functional-tests) such as building and running the test rig, documentation to modify code, test scripts, test data generation have been made available.
 
-There are multiple repositories within the MOSIP organization. To contribute to Source Code, take a look at the Open Issues that are not assigned to anyone and put a comment saying “I would like to take this up” along with your approach and design preferably with pseudo code. The issue shall be assigned to you after review.  Alternatively, please join our [developer mailing list](https://groups.io/g/mosip-dev) and send an email there. The core contributors team will interact with you via Github Issue comments.  You may work in the forked version of the repository and send pull requests via Github.
+***
 
-For new bugs, specs, features or documentation improvements, please log Github Issues under the appropriate repository, or join and write in at our [developer mailing list](https://groups.io/g/mosip-dev)
+### Getting in touch!
+We are here to help you!
 
-## Community Events
 
-We actively organise online and in-person meetups and discussions. Keep an eye on [this page](https://www.mosip.io/news-events.php) for the latest.
+Join the [developer mailing list](https://groups.io/g/mosip-dev)
+
+You may also be interested in joining our community room on Gitter via [![Gitter](https://badges.gitter.im/mosip-community/community.svg)](https://gitter.im/mosip-community/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)  where you could get some great community support  
